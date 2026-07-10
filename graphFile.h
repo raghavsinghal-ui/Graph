@@ -14,7 +14,7 @@ void bfs(int source);
 bool uncycDet_bfs(bool directed,int source);
 bool uncycDet_dfs(int source);
 bool DrcycDet_dfs(int source);
-bool graph::DrcycDet_Bsf(int V);
+bool DrcycDet_Bsf(int V);
 vector<int>  topoSort(int V) ;
 vector<int> topoSort_bsf(int V);
 
